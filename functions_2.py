@@ -2,6 +2,7 @@ from number_functions import radius
 
 
 def volume_cylinder(radius, height):
+    """" Calculates the volume  of a cylinder"""
     v = 22/7 * radius**2 * height
     return v
 
@@ -17,3 +18,5 @@ def volume_cone(radius, height, decimals=2): #optional parameters
 
 print(volume_cone(20, 15))
 print(volume_cone(15, 4, 3))
+
+#package

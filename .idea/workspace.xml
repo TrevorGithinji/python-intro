@@ -4,19 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56c865fe-8f4c-4db3-9533-6eb02bb0bcee" name="Changes" comment="rounding off">
-      <change afterPath="$PROJECT_DIR$/.idea/Python-Intro.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions_4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions_5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/number_functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/number_functions.py" afterDir="false" />
+    <list default="true" id="56c865fe-8f4c-4db3-9533-6eb02bb0bcee" name="Changes" comment="writing functions">
+      <change afterPath="$PROJECT_DIR$/lambda_functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/python_dates.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,8 +56,10 @@
     "Python.functions_3.executor": "Run",
     "Python.functions_4.executor": "Run",
     "Python.intro.executor": "Run",
+    "Python.lambda_functions.executor": "Run",
     "Python.number_functions.executor": "Run",
     "Python.numbers.executor": "Run",
+    "Python.python_dates.executor": "Run",
     "Python.strings.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -78,7 +72,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.functions_4">
+  <component name="RunManager">
     <configuration name="conditions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python-Intro" />
       <option name="ENV_FILES" value="" />
@@ -222,7 +216,8 @@
       <updated>1741933090307</updated>
       <workItem from="1741933091396" duration="2854000" />
       <workItem from="1742277168799" duration="6760000" />
-      <workItem from="1742794393434" duration="7622000" />
+      <workItem from="1742794393434" duration="7943000" />
+      <workItem from="1742883450534" duration="5504000" />
     </task>
     <task id="LOCAL-00001" summary="intro to python">
       <option name="closed" value="true" />
@@ -256,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1742284058492</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="writing functions">
+      <option name="closed" value="true" />
+      <created>1742802125994</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1742802125994</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -278,15 +281,18 @@
     <MESSAGE value="ignored xml and iml files" />
     <MESSAGE value="python basics" />
     <MESSAGE value="rounding off" />
-    <option name="LAST_COMMIT_MESSAGE" value="rounding off" />
+    <MESSAGE value="writing functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="writing functions" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python_Intro$functions_4.coverage" NAME="functions_4 Coverage Results" MODIFIED="1742801981013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Intro$numbers.coverage" NAME="numbers Coverage Results" MODIFIED="1742277460706" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Intro$functions_2.coverage" NAME="functions_2 Coverage Results" MODIFIED="1742796761416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Intro$lambda_functions.coverage" NAME="lambda_functions Coverage Results" MODIFIED="1742886224138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Intro$number_functions.coverage" NAME="number_functions Coverage Results" MODIFIED="1742283915424" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Intro$functions.coverage" NAME="functions Coverage Results" MODIFIED="1742795990025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Intro$functions_3.coverage" NAME="functions_3 Coverage Results" MODIFIED="1742797715136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python_Intro$python_dates.coverage" NAME="python_dates Coverage Results" MODIFIED="1742888044748" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Intro$conditions.coverage" NAME="conditions Coverage Results" MODIFIED="1742795008732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Intro$intro.coverage" NAME="intro Coverage Results" MODIFIED="1741933722137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python_Intro$strings.coverage" NAME="strings Coverage Results" MODIFIED="1742281558616" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
