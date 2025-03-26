@@ -19,4 +19,4 @@ def volume_cone(radius, height, decimals=2): #optional parameters
 print(volume_cone(20, 15))
 print(volume_cone(15, 4, 3))
 
-#package
+#package  pip install pillow
